@@ -1,0 +1,196 @@
+﻿<phone:PhoneApplicationPage
+    
+    
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+   
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    xmlns:my="clr-namespace:Microsoft.Phone.Controls.Maps;assembly=Microsoft.Phone.Controls.Maps"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:Globalization="clr-namespace:System.Globalization;assembly=mscorlib"
+    x:Class="PazaryeriMYO_WP8.MainPage"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+
+
+
+
+
+
+
+
+
+
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+
+
+
+        <phone:Panorama Title="  " HorizontalAlignment="Left">
+            <phone:Panorama.Background>
+                <ImageBrush ImageSource="/asd.jpg"/>
+            </phone:Panorama.Background>
+
+            <!--Panorama item one-->
+            <phone:PanoramaItem Header="Duyurular" Foreground="{StaticResource PhoneSemitransparentBrush}" FontWeight="Bold">
+                <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top" d:IsLocked="True">
+                    <StackPanel  Width="418" Margin="0" d:IsLocked="True">
+
+
+                        <HyperlinkButton x:Name="link1" toolkit:TiltEffect.IsTiltEnabled="True"  FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Left" HorizontalContentAlignment="Left" RenderTransformOrigin="0.5,0.5" Click="link1_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link2" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link2_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link3" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link3_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link4" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"   HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link4_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link5" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link5_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link6" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed" HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link6_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link7" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link7_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link8" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link8_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link9" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link9_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link10" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link10_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link11" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link11_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link12" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link12_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link13" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link13_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link14" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link14_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link15" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link15_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link16" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link16_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link17" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link17_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link18" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link18_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link19" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link19_Click" d:IsLocked="True"/>
+                        <HyperlinkButton x:Name="link20" toolkit:TiltEffect.IsTiltEnabled="True" FontWeight="Bold" Foreground="DarkRed"  HorizontalAlignment="Left" HorizontalContentAlignment="Left" Click="link20_Click" d:IsLocked="True"/>
+
+
+
+
+                    </StackPanel>
+                </ScrollViewer>
+
+
+                <!--Single line list with text wrapping-->
+            </phone:PanoramaItem>
+
+            <!--Panorama item two-->
+            <phone:PanoramaItem Header="Tarihçe" Foreground="{StaticResource PhoneSemitransparentBrush}" FontWeight="Bold">
+                <ScrollViewer HorizontalAlignment="Left" VerticalAlignment="Top" d:IsLocked="True">
+
+
+                    <TextBlock TextWrapping="Wrap" Text="Meslek Yüksekokulumuz, Yükseköğretim Kurumunun 14.02.1994 Tarih ve 94.5.332 sayılı kararları gereği 1994-1995 Eğitim-Öğretim yılında Bilgisayar Programcılığı, Bilgisayarlı Muhasebe ve Vergi Uygulamaları ve Tekstil Baskı Programlarıyla birlikte Dumlupınar Üniversitesi bünyesinde kurularak Eğitim-Öğretime başlamıştır. Daha sonra yıllar itibariyle bölüm sayısı ve öğrenci sayısı artmıştır.                                         Meslek Yüksekokulumuz 29.05.2007 tarih 26536 sayılı Resmi Gazetede yayımlanarak yürürlüğe giren 5662 sayılı kanunla kurulan Bilecik Üniversitesine bağlanarak, Eğitim Öğretim faaliyetlerine devam etmektedir. Meslek Yüksekokulumuz 2010-2011 Eğitim Öğretim yılında 1 programda normal öğretim ve ikinci öğretim, 8 programda da normal öğretim ile eğitim-öğretime devam etmektedir. Yüksekokulumuzda 20 Akademik, 7 İdari, 3 Özel Güvenlik ve 3 Temizlik (Özel) elemanı olmak üzere toplam  33  kişi görev yapmaktadır."/>
+
+
+                </ScrollViewer>
+
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Harita PMYO" Orientation="Horizontal" Foreground="{StaticResource PhoneSemitransparentBrush}" FontWeight="Bold" Width="426" FontSize="16">
+
+                <my:Map  CredentialsProvider="Ah2jZTEbs6c9LcNvNYv2Ceu1sMosgTf0pXN37Lgi_55IPs1Hxd51HbUM3u9fQTZt" Mode="AerialWithLabels"  ZoomLevel="17" ZoomBarVisibility="Collapsed" Center="39.990814, 29.908512" Height="469" x:Name="map1" VerticalAlignment="Top" Margin="0,-31,-2,0" LogoVisibility="Visible" HorizontalAlignment="Left" Width="415" >
+                    <HyperlinkButton x:Name="Map_Link" toolkit:TiltEffect.IsTiltEnabled="True" Content="Haritayı Daha Geniş Görmek İçin Dokunun" HorizontalAlignment="Left" Height="38" VerticalAlignment="Top" Width="442" Margin="-14,0,-13,0" FontSize="18" FontWeight="Normal" Click="Map_Link_Click">
+                        <HyperlinkButton.Background>
+                            <SolidColorBrush Color="Black" Opacity="0.5"/>
+                        </HyperlinkButton.Background>
+                    </HyperlinkButton>
+                </my:Map>
+
+
+            </phone:PanoramaItem>
+
+            <phone:PanoramaItem Header="Kısayollar" Orientation="Horizontal" Foreground="{StaticResource PhoneSemitransparentBrush}" FontWeight="Bold" Width="781" RenderTransformOrigin="0.461,0.9">
+
+                <StackPanel Margin="14,4,-2,0" Orientation="Vertical" VerticalAlignment="Top">
+                    <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Width="741">
+                        <toolkit:HubTile x:Name="HT_OgrIsleri" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Öğrenci İşleri" Message="Öğrenci Bilgi Sistemine Giriş Yapabilirsiniz" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_OgrIsleri_Tap"/>
+                        <toolkit:HubTile x:Name="HT_tlfNo" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Telefon Rehberi" Message="Okulumuzun Telefon Numaraları" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_tlfNo_Tap"/>
+                        <toolkit:HubTile x:Name="HT_YemekM" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Yemek Menüsü" Message="Yemek Menüsüne Bakınız" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_YemekM_Tap"/>
+                        <toolkit:HubTile x:Name="HT_Iletisim" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="İletişim" Message="Okulumuzun İletişim Bölümüne Bakınız" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_Iletisim_Tap"/>
+                    </StackPanel>
+                    <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Margin="0,12,0,0" Width="741">
+                        <toolkit:HubTile x:Name="HT_AkTakvim" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Akademik Takvim" Message="Akademik Takvime Bakınız" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_AkTakvim_Tap"/>
+                        <toolkit:HubTile x:Name="HT_FotoGaleri" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Foto Galeri" Message="Fotoğraf Galerisine Bakınız" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_FotoGaleri_Tap"/>
+                        <toolkit:HubTile x:Name="HT_AkPersonel" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Personellerimiz " Message="Akademik Personelimiz" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_AkPersonel_Tap"/>
+                        <toolkit:HubTile x:Name="HT_BilecikUni" toolkit:TiltEffect.IsTiltEnabled="True" Foreground="Black"  Title="Bilecik Şeyh Edebali Üni" Message="Bilecik Şeyh Edebali Üniversitesi Anasayfa" Source="hub.png" Margin="12,0,0,0" HorizontalAlignment="Left" FontWeight="Normal" Opacity="0.6" FontSize="10" Background="#FFFEFEFE" Tap="HT_BilecikUni_Tap"/>
+                    </StackPanel>
+                </StackPanel>
+
+
+
+            </phone:PanoramaItem>
+
+
+            <phone:PanoramaItem Header="Müdürümüz" Foreground="{StaticResource PhoneSemitransparentBrush}" FontWeight="Bold">
+
+                <Grid Height="215" Margin="160,0,117,0" Width="112">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="61*"/>
+                        <ColumnDefinition Width="51*"/>
+                        <ColumnDefinition Width="9*"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock TextWrapping="Wrap" Text="Yrd.Doç.Dr. Faruk AKIN" FontSize="24" Foreground="#FF8D2020" Margin="-182,-156,1,322" Grid.ColumnSpan="3"/>
+                    <Image Margin="-182,-107,-143,-32" Grid.ColumnSpan="3" Source="/mdr.png"/>
+                    <Button toolkit:TiltEffect.IsTiltEnabled="True" Content="Yönetimi Görmek İçin Dokunun" Foreground="#FF162304" Click="Button_Click_1" Margin="-182,247,-143,-122" Grid.ColumnSpan="3">
+                        <Button.Background>
+                            <SolidColorBrush Color="#FF9E4848" Opacity="0.5"/>
+                        </Button.Background>
+                    </Button>
+                </Grid>
+
+
+
+            </phone:PanoramaItem>
+
+
+
+
+
+
+        </phone:Panorama>
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0" Grid.Row="0" Grid.RowSpan="2" IsHitTestVisible="False" />-->
+
+    </Grid>
+
+    <toolkit:TransitionService.NavigationInTransition>
+        <toolkit:NavigationInTransition>
+            <toolkit:NavigationInTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideUpFadeIn" />
+            </toolkit:NavigationInTransition.Backward>
+
+            <toolkit:NavigationInTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideUpFadeIn" />
+            </toolkit:NavigationInTransition.Forward>
+        </toolkit:NavigationInTransition>
+    </toolkit:TransitionService.NavigationInTransition>
+
+    <toolkit:TransitionService.NavigationOutTransition>
+        <toolkit:NavigationOutTransition>
+            <toolkit:NavigationOutTransition.Backward>
+                <toolkit:SlideTransition Mode="SlideDownFadeOut"/>
+            </toolkit:NavigationOutTransition.Backward>
+            <toolkit:NavigationOutTransition.Forward>
+                <toolkit:SlideTransition Mode="SlideDownFadeOut"/>
+            </toolkit:NavigationOutTransition.Forward>
+        </toolkit:NavigationOutTransition>
+    </toolkit:TransitionService.NavigationOutTransition>
+
+
+
+
+
+
+
+
+</phone:PhoneApplicationPage>
